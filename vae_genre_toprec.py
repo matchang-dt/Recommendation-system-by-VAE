@@ -9,7 +9,6 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset, Dataset
 from datetime import datetime
-from scipy.sparse import csr_matrix
 
 # %%
 # from data_pair_formatting import train_user_item_pair, test_user_item_pair, num_users, num_items, not_items_per_user, SPLITTING_RATIO, SEED

@@ -1,6 +1,5 @@
 #%%
 import gzip
-import pandas as pd
 
 from data_pair_formatting import user_item_pair, train_user_item_pair, test_user_item_pair, num_users, num_items, not_items_per_user, SPLITTING_RATIO, SEED
 
@@ -27,7 +26,6 @@ for g in games:
     if g["id"] in game_set:
         games_aus.append(g)
 
-games_aus_df = pd.DataFrame(games_aus)
 #%%
 genres_per_item = dict()
 genre_idx = {}
